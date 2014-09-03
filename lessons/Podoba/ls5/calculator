@@ -1,0 +1,66 @@
+"# -*- coding: utf-8 -*-"
+# Calculator
+
+#function of menu 
+def menu():
+    print "  "
+    print ""
+    # list of actions
+    print "Набір доступних дій:"
+    print "1) Додавання"
+    print "2) Віднімання"
+    print "3) Множення"
+    print "4) Ділення"
+    print "5) Вихід"
+    print ""
+
+    #asking of action
+    return input("Оберіть Вашу дію: ")
+
+#functions of calc
+
+def add(num1,num2):
+    print num1, "+", num2, "=", num1+num2
+
+def sub(num1,num2):
+    print num1, "-", num2, "=", num1-num2
+
+def mul(num1,num2):
+    print num1, "*", num2, "=", num1*num2
+
+def div(num1,num2):
+    print num1, "/", num2, "=", num1/num2
+
+#main program
+
+loop = 1
+
+choise = 0
+
+#loop of main program
+
+while loop ==1:
+
+    choise = menu()
+    # +
+    if choise ==1:
+        add(input("До числа: "),input("додати число: "))
+
+    #-
+    elif choise ==2:
+        sub(input("Від числа: "),input("віднімаємо число: "))
+
+    #*
+    elif choise ==3:
+        mul(input("Множимо: "),input("на число: "))
+
+    #/
+    elif choise ==4:
+        div(input("Ділимо число: "),input("на: "))
+
+    #stop loop
+    elif choise ==5:
+        loop = 0
+
+# end of program
+print "Дякуємо за користування калькулятором. Приходьте ще!"

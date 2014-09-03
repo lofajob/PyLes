@@ -1,0 +1,30 @@
+print '''
+Програма вирішує квадратні лінійні рівняння вигляду
+                 a*x^2 + b*x + c = 0
+'''
+
+import math
+
+#Discriminant - обрахунок дискримінанту
+def Discriminant(a,b,c):
+    return b**2-4*a*c
+
+#Ввід даних
+a = int(raw_input ('Введіть a: '))
+b = int(raw_input ('Введіть b: '))
+c = int(raw_input ('Введіть c: '))
+print '%s*x*2 + %s*x + %s = 0' % (a, b, c)
+
+D = Discriminant(a, b, c)
+print 'D= ',D
+
+if D < 0:
+    print 'Дійсних  коренів не існує.'
+elif D==0:
+    print 'X = ',-b/(2*a)
+elif D>0:
+    print 'X1 = ',-b + math.sqrt(D)/(2*a)
+    print 'X2 = ',-b - math.sqrt(D)/(2*a)
+
+print 'Кінець.'
+
