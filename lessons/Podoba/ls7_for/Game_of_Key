@@ -1,0 +1,14 @@
+# Game of Key
+
+#function of menu
+def menu(list, question):
+    for entry in list:
+        print 1 + list.index(entry),
+        print ") " + entry
+
+    return input(question) - 1
+
+#initialize list of items in the room
+# u - це юнікодові стрічки
+items = [u"вазон", u"картина", u"ваза", u"абажур", u"туфля", u"двері"]
+
