@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 # Bank customer
 
+
 class Customer:
     def __init__(self, name, bal = 0, cur = 'UAR'):
         cur = cur.upper()
