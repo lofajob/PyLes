@@ -5,6 +5,7 @@
 
 class Customer:
     def __init__(self, name, bal = 0, cur = 'UAR'):
+        # checking the correct currency value
         cur = cur.upper()
         if  cur != 'UAR' and cur != 'EUR' and cur != 'USD':
             print u"Некоректно введена валюта."
@@ -24,4 +25,18 @@ class Customer:
         else:
             print u"Невідома валюта!"
 
-    
+    def show_balance(self):
+        print self.bal, self.currency
+
+    def deposit(self, amount):
+        if amount > 0:
+            self.bal += amount
+        else:
+            print "Enter money!"
+
+    def withdraw(self, wdrw):
+        if wdrw <= self.bal:
+            self.bal -= wdrw
+        else:
+            print "You can't withdraw %s %s. Your current balance: %s." % (wdrw,
+            self.currency, self.bal)
