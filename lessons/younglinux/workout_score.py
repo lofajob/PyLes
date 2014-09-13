@@ -1,6 +1,5 @@
-
 # Score of workout result
-from UserList import UserList
+
 
 class Attempt:
     def __init__(self, weight, iteration):
