@@ -1,13 +1,13 @@
 # Score of workout result
 
 
-class Attempt:
+class Attempt(object):
     def __init__(self, weight, iteration):
         self.weight = weight
         self.iteration = iteration
         self.att_value = self.weight * self.iteration
 
-class Ex(object):
+class Exercise(object):
     def __init__(self, title, number):
         self.title = title
         self.number = number
