@@ -34,9 +34,9 @@ class Customer:
         else:
             print "Enter money!"
 
-    def withdraw(self, wdrw):
+    def withdraw(self, amount):
         if wdrw <= self.bal:
-            self.bal -= wdrw
+            self.bal -= amount
         else:
             print "You can't withdraw %s %s. Your current balance: %s." % (wdrw,
             self.currency, self.bal)
