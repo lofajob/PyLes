@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # -*- coding: cp1251 -*-
 #Ïóçèðüêîâå ñîðòóâàííÿ
 
@@ -11,3 +12,18 @@ for i in range(len(a), 0, -1):
             a[j], a[j+1] = a[j+1], a[j]
 
 print a
+=======
+# -*- coding: utf-8 -*-
+#ÐŸÑƒÐ·Ð¸Ñ€ÑŒÐºÐ¾Ð²Ðµ ÑÐ¾Ñ€Ñ‚ÑƒÐ²Ð°Ð½Ð½Ñ
+
+a = [1, 8 , 7, 3, 5, 4]
+
+print a
+
+for i in range(len(a), 0, -1):
+    for j in range(0, len(a) -1):
+        if a[j] > a[j+1]:
+            a[j], a[j+1] = a[j+1], a[j]
+
+print a
+>>>>>>> 58c3053a3dcbb951d0bcfaf1043902fc235ecc6d

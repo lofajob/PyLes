@@ -12,7 +12,11 @@ def menu(list_, question):
     except NameError:
         print u"Будь ласка, введіть число від 1-8"
 
+<<<<<<< HEAD
 # store list of options for menu
+=======
+# assign list of options for menu
+>>>>>>> 58c3053a3dcbb951d0bcfaf1043902fc235ecc6d
 options = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I']
 loop = 1
 

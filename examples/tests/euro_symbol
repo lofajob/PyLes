@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 # -*- coding: iso-8859-15 -*-
 
 currency = u"¤"
 print ord(currency)
+=======
+# -*- coding: iso-8859-15 -*-
+
+currency = u"¤"
+print ord(currency)
+>>>>>>> 58c3053a3dcbb951d0bcfaf1043902fc235ecc6d

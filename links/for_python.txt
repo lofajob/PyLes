@@ -1,0 +1,5 @@
+http://younglinux.info/oopython/objects.php ---- OOP lessons
+
+http://python-3.ru/category/python-dlja-nachinajushhih/next/4  -- good site with examples
+
+http://help.ubuntu.ru/fullcircle/27/python_÷_1  --- Ubuntu tutorial

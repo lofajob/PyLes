@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" defaultCharsetForPropertiesFiles="windows-1251">
     <file url="PROJECT" charset="windows-1251" />
+=======
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/lessons/Nalivayko/les1_while_sortirovka.py" charset="UTF-8" />
+>>>>>>> 58c3053a3dcbb951d0bcfaf1043902fc235ecc6d
   </component>
 </project>
 
